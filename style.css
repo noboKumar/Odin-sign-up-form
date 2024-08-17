@@ -1,0 +1,8 @@
+@font-face {
+    font-family: Norse-bold;
+    src: url(./font/Norse-Bold.otf);
+}
+*{
+    --green-color: #596D48;
+    --form-border-color:#E5E7EB;
+}
