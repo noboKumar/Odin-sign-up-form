@@ -8,7 +8,7 @@
 }
 #background-photo img[src="./background photo/leaf background.jpg"]{
     height: 100vh;
-    width: 30%;
+    width: auto;
 }
 #logo{
     display: flex;
@@ -23,12 +23,12 @@
 #logo-text{
     font-family: 'Norse-bold';
     font-size: 60px;
-    display: inline;
     margin-top: 40px;
     color: white;
 }
 div#logo.logo{
-    transform: translate(-50,-50);
     background-color: black;
-    margin-right: 70%;
+    position: absolute;
+    top: 20%;
+    left: 10%;
 }
