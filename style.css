@@ -53,3 +53,18 @@ div#logo.logo{
     flex-direction: row;
     justify-content: center;
 }
+.right-side h1{
+    padding-top: 10%;
+    padding-left: 5%;
+}
+.right-side h1 .header-para{
+    margin-top: 20px;
+}
+.right-side{
+    display: flex;
+    flex-direction: column;
+}
+#input{
+    display: flex;
+    flex-direction: row;
+}
