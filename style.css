@@ -13,6 +13,8 @@
 #logo{
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    padding: 20px;
 }
 #logo img[src="./background photo/odin-lined.png"]{
     height: 120px;
@@ -22,5 +24,11 @@
     font-family: 'Norse-bold';
     font-size: 60px;
     display: inline;
-    margin-top: 50px;
+    margin-top: 40px;
+    color: white;
+}
+div#logo.logo{
+    transform: translate(-50,-50);
+    background-color: black;
+    margin-right: 70%;
 }
