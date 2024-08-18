@@ -7,9 +7,14 @@
     --form-border-color:#E5E7EB;
     --white-color:var(--form-border-color)
 }
+body,html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
 .content{
+    display: flex;
     height: 100vh;
-    width: 100vw;
 }
 #background-photo img[src="./background photo/leaf background.jpg"]{
     height: 100vh;
@@ -52,20 +57,19 @@ div#logo.logo{
     display: flex;
     flex-direction: row;
     justify-content: center;
-}
-.right-side{
     background-color: var(--white-color);
 }
 .right-side h1{
     padding-top: 20%;
     padding-left: 5%;
+    align-items: center;
 }
 .right-side h1 .header-para{
     margin-top: 20px;
 }
 .right-side{
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
 }
 #form-container{
     display: flex;
@@ -120,4 +124,14 @@ div.form-box{
     border: none;
     color:#E5E7EB;
     box-shadow: 4px 5px 10px;
+}
+.login p{
+    font-size: 15px;
+    font-weight: bold;
+    font-family: monospace;
+}
+.login span a{
+    color: var(--green-color);
+    cursor: pointer;
+    text-decoration: none;
 }
