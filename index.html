@@ -23,37 +23,42 @@
                 <br> <div class="header-para"> You <em> know </em> you  want to. </div> </h1>
             <div class="form">
                 <form  action="#" method="post">
-                    <p class="form-para">Let's do this!</p>
-                    <div id="form-container">
-                        <div class="input-left">
-                            <div class="input">
-                                <label for="f-name">FIRST NAME</label>
-                                <input name="first-name" type="text" id="f-name">
+                    <div class="form-box">
+                        <p class="form-para">Let's do this!</p>
+                            <div id="form-container">
+                                <div class="input-left">
+                                    <div class="input">
+                                        <label for="f-name">FIRST NAME</label>
+                                        <input name="first-name" type="text" id="f-name">
+                                    </div>
+                                    <div class="input">
+                                        <label for="email">EMAIL</label>
+                                        <input name="email" id="email" type="email">
+                                    </div>
+                                    <div class="input">
+                                        <label for="password">PASSWORD</label>
+                                        <input name="password" id="password" type="password" pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&#])[A-Za-z\d@$!%*?&#]{8,}">
+                                    </div>
+                                </div>
+                                <div class="input-right">
+                                    <div class="input">
+                                        <label for="last-name">LAST NAME</label>
+                                        <input name="last-name" id="last-name" type="text">
+                                    </div>
+                                    <div class="input">
+                                        <label for="phone-number">PHONE NUMBER</label>
+                                        <input name="phone-number" type="tel" id="phone-number" >
+                                    </div>
+                                    <div class="input">
+                                        <label for="confirm-password">CONFIRM PASSWORD</label>
+                                        <input id="confirm-password" name="confirm-password" type="password">
+                                    </div>
+                                </div>
                             </div>
-                            <div class="input">
-                                <label for="email">EMAIL</label>
-                                <input name="email" id="email" type="email">
-                            </div>
-                            <div class="input">
-                                <label for="password">PASSWORD</label>
-                                <input name="password" id="password" type="password" pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&#])[A-Za-z\d@$!%*?&#]{8,}">
-                            </div>
-                        </div>
-                        <div class="input-right">
-                            <div class="input">
-                                <label for="last-name">LAST NAME</label>
-                                <input name="last-name" id="first-name" type="text">
-                            </div>
-                            <div class="input">
-                                <label for="phone-number">PHONE NUMBER</label>
-                                <input name="phone-number" type="tel" id="phone-number" >
-                            </div>
-                            <div class="input">
-                                <label for="phone-number">CONFIRM PASSWORD</label>
-                                <input id="confirm-password" name="password" type="password">
-                            </div>
-                        </div>
-                   </div>
+                    </div>
+                    <div class="btn">
+                        <button type="submit">Create Account</button>
+                    </div>
                 </form>
             </div>
         </div>
