@@ -65,7 +65,7 @@ div#logo.logo{
     display: flex;
     flex-direction: column;
 }
-#input{
+#form-container{
     display: flex;
     flex-direction: row;   
 }
@@ -77,4 +77,9 @@ div#logo.logo{
 .form-para{
     font-size: 1.5em;
     font-weight: bold;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
