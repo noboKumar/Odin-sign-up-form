@@ -5,7 +5,8 @@
 :root{
     --green-color: #596D48;
     --form-border-color:#E5E7EB;
-    --white-color:var(--form-border-color)
+    --white-color:var(--form-border-color);
+    --light-white-color: #f1f1f179;
 }
 *{
     box-sizing: border-box;
@@ -57,11 +58,9 @@ body,html{
 }
 
 .right-side{
-    /* background-color: #E5E7EB; */
     display: flex;
     flex-flow: column;
     justify-content: center;
-    justify-content: space-between;
     box-sizing: border-box;
     height: 100%;
     margin: 0;
@@ -69,7 +68,9 @@ body,html{
 }
 .right-side .right-header{
     padding: 50px;
+    background-color: var(--light-white-color)
 }
+
 /* form */
 
 .form{
@@ -113,7 +114,6 @@ body,html{
 /* button */
 
 .btn button[type="submit"]{
-    margin-top: 5%;
     padding: 15px 50px;
     border-radius: 8px;
     background-color: var(--green-color);
@@ -121,7 +121,7 @@ body,html{
     font-weight: bold;
     border: none;
     color:#E5E7EB;
-    box-shadow: 4px 5px 10px;
+    box-shadow: 4px 5px 10px rgba(0, 0, 0, 0.37);
 }
 .login p{
     font-size: 15px;
@@ -133,6 +133,7 @@ body,html{
     cursor: pointer;
     text-decoration: none;
 }
-.bottom{
-    padding: 50px;
+.right-side .bottom{
+    padding: 40px;
+    background-color: var(--light-white-color)
 }
