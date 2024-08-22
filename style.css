@@ -98,12 +98,7 @@ body,html{
     font-weight: bold;
     padding-top: 20px;
 }
-#f-name,
-#last-name,
-#email,
-#password,
-#phone-number,
-#confirm-password{
+input{
     width: 15rem;
     padding: 8px;
     border:2px solid var(--form-border-color);
@@ -136,4 +131,19 @@ body,html{
 .right-side .bottom{
     padding: 40px;
     background-color: var(--light-white-color)
+}
+input:focus{
+    outline: none;
+    border: 2px solid rgba(0, 0, 255, 0.459);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.377);
+}
+.btn button[type="submit"]:hover{
+    cursor: pointer;
+    background-color: #69775b;
+}
+#confirm-password:invalid{
+    border: 2px solid rgba(255, 0, 0, 0.555);
+}
+#password:invalid{
+    border: 2px solid rgba(255, 0, 0, 0.555);
 }
